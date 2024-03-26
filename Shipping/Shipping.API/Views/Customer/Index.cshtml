@@ -1,0 +1,30 @@
+@model IEnumerable<ApplicationCore.Entities.Customer>
+<h1>list of Customers</h1>
+<a asp-controller="Customer" asp-action="Create">Add New Department</a>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Payment</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(var m in Model)
+    {
+        <tr>
+            <td>@m.Id</td>
+            <td>@m.Name</td>
+            <td>@m.Address</td>
+            <td>@m.Payment</td>
+            <td>
+                <a asp-controller="Customer" asp-action="Delete" asp-route-id="@m.Id" class="btn-danger btn">Delete</a>
+                <a asp-controller="Customer" asp-action="Edit" asp-route-id="@m.Id" class="btn-warning btn">Edit</a>
+            </td>
+        </tr>
+        
+    }
+    </tbody>
+</table>

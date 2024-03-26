@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  shipping.api:
+    build:
+      context: "/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping"
+      dockerfile: "Shipping.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/Shipping.API.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net7.0/Shipping.API.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "shipping.api:dev"
+    ports: []
+    volumes:
+    - "/Users/amandatao/.nuget/packages:/root/.nuget/packages"
+    - "/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API:/app:rw"
+    - "/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping:/src:rw"
+    working_dir: "/app"

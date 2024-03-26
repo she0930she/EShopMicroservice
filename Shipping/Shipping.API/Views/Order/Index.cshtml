@@ -1,0 +1,29 @@
+@model IEnumerable<ApplicationCore.Entities.Order>
+
+<!-- customer view -->
+<h1>List of Orders</h1>
+@* <table class="table"> *@
+@*     <thead> *@
+@*     <tr> *@
+@*         <th>Id</th> *@
+@*         <th>ProductName</th> *@
+@*         <th>Description</th> *@
+@*         <th>Price</th> *@
+@*         <td></td> *@
+@*     </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@*     @foreach(var m in Model) *@
+@*     { *@
+@*         <tr> *@
+@*             <td>@m.Id</td> *@
+@*             <td>@m.ProductName</td> *@
+@*             <td>@m.Description</td> *@
+@*             <td>@m.Price</td> *@
+@*             <td> *@
+@*                 <a asp-controller="Product" asp-action="AddToBag" asp-route-id="@m.Id" class="btn-danger btn">Add to Bag</a> *@
+@*             </td> *@
+@*         </tr> *@
+@*     } *@
+@*     </tbody> *@
+@* </table> *@

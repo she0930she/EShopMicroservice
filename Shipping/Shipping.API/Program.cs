@@ -1,4 +1,8 @@
+using ApplicationCore.Contracts.RepositoryInterface.Customer.Repository;
+using ApplicationCore.Contracts.RepositoryInterface.ProductIRepo;
 using Infrastructure.Data;
+using Infrastructure.Repositories.CustomerRepo;
+using Infrastructure.Repositories.ProductRepo;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,13 +13,14 @@ builder.Services.AddControllersWithViews();
 // attach it to connectionstring
 builder.Services.AddDbContext<EShopDbContext>(option =>
 {
-    option.UseSqlServer(builder.Configuration.GetConnectionString("EShopDB"));
+    option.UseSqlServer(Environment.GetEnvironmentVariable("EShopDB"));
+    //option.UseSqlServer(builder.Configuration.GetConnectionString("EShopDB"));
 });
 
 // repository must be registered in MVC 
 // dependency injection
-// builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-// builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<ICustomerRepo, CustomerRepo>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 
 var app = builder.Build();

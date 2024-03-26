@@ -1126,7 +1126,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "compile": {
           "bin/placeholder/ApplicationCore.dll": {}
@@ -1141,7 +1142,8 @@
         "dependencies": {
           "ApplicationCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}
@@ -3462,7 +3464,8 @@
       "Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
+      "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -3520,6 +3523,10 @@
             "version": "[7.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
             "version": "[7.0.0, )"
           }

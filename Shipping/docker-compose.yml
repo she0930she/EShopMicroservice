@@ -1,0 +1,8 @@
+﻿services:
+  shipping.api:
+    image: shipping.api
+    build:
+      context: .
+      dockerfile: Shipping.API/Dockerfile
+    ports:
+      - 1770:80

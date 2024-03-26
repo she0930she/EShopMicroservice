@@ -1,0 +1,22 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model ApplicationCore.Entities.Product
+
+<h2>Are you sure you want to delete following?</h2>
+<form asp-action="Delete" asp-controller="Customer">
+    <div>
+        <input type="hidden" name="Id" value="@Model.Id"/> 
+        <!-- pass id to controller to delete -->
+        
+    </div>
+    <div>
+        <label>Name</label> <label name="Name">@Model.ProductName</label>
+    </div>
+    <div>
+        <label>Address</label> <label name="Address">@Model.Description</label> 
+    </div>
+    <div>
+        <label>Payment</label> <label name="Payment">@Model.Price</label> 
+    </div>
+    <button class="btn-danger btn">Yes</button>
+    <a href="/home" class="btn-default btn">No</a>
+</form>

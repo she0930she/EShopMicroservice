@@ -16,12 +16,64 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Order/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Order/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Order/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Product/AddToBag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGRUb0JhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/amandatao/RiderProjects/WebProgramming/EShopMicroservice/Shipping/Shipping.API/Views/Shared/Error.cshtml]
